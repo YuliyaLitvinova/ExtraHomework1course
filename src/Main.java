@@ -29,7 +29,7 @@ public class Main {
     }
     public static void task3 () {
         System.out.println("Задача 3");
-       var a = 123;
+       var a = 345;
        int b = a/100;
        int с = a/10;
        int d = с%10;
