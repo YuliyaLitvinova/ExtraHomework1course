@@ -45,11 +45,16 @@ public class Main {
         System.out.println("Задача 4");
         int BouquetPrice = 4899;
         int CardPrice = 157;
-        float TotalPrice = BouquetPrice + CardPrice;
-        float DiscountPrice = (TotalPrice / 10) *9 ;
-        System.out.println("Общая сумме покупки без скидки = " + TotalPrice);
-        System.out.println("Сумма покупки со скидкой  = " + DiscountPrice);
-        System.out.println( "Сумма скидки = " + (TotalPrice- DiscountPrice));
+        int discount = 10;
+
+        double TotalPrice = BouquetPrice + CardPrice;
+        double DiscountPrice = TotalPrice *(discount /100f) ;
+        double DiscountSum = TotalPrice - DiscountPrice;
+
+
+        System.out.println("Общая сумме покупки без скидки = " + Math.round(TotalPrice));
+        System.out.println("Сумма покупки со скидкой  = " + Math.round(DiscountPrice));
+        System.out.println( "Сумма скидки = " + Math.round(DiscountSum));
         System.out.println();
     }
     public static void task5 () {
