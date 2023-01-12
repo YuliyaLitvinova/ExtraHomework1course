@@ -70,7 +70,7 @@ public class Main {
          System.out.println();
          System.out.println();
 
-         System.out.println("Задача 5b");
+         System.out.println("Задача 5б");
          int ChampagnePrice = 2870;
          int ChampagneCount = 7;
          int DiscountChampagne = 50;
@@ -79,6 +79,19 @@ public class Main {
          double TotalSum_b = ((ChampagneCount*ChampagnePrice)*(DiscountChampagne/100f)) + (BreadCount* BreadPrice);
         System.out.printf( "Сумма покупки: "+ "%.1f",TotalSum_b);
         System.out.println();
+        System.out.println();
+
+        System.out.println("Задача 5в");
+        double ChampignonsPrice = 436.0;
+        double ChampignonsWeight = 2.5;
+        double PorciniPrice = 578.0;
+        double PorciniWeight = 3.75;
+        double PorciniDiscount = 5.0;
+
+        double PorciniSumDiscount = ( (PorciniPrice * PorciniWeight) /100) * (100 - PorciniDiscount);
+        double TotalSum_v = PorciniSumDiscount + (ChampignonsPrice*ChampignonsWeight);
+
+        System.out.println("Сумма покупки: "+ TotalSum_v);
         System.out.println();
 
     }
