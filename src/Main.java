@@ -97,6 +97,12 @@ public class Main {
     }
     public static void task6 () {
         System.out.println("Задача 6");
-         // Пишем код для задачи 2
+         double x = 0.40;
+         double y = 0.87;
+        System.out.printf( "%.2f",11*x +y);
+        System.out.println();
+        System.out.printf( "%.2f",(x+10*y)- 15*(x/y));
+
+
     }
 }
