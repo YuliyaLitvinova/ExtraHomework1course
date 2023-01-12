@@ -64,12 +64,23 @@ public class Main {
          int OrangeDiscount = 15;
          int BananaPrice = 95;
          int BananaWeight = 2;
-
          double OrangeSum = (OrangePrice * OrangeWeight) * (OrangeDiscount/100f);
          double TotalSum = (BananaWeight* BananaPrice) + OrangeSum;
          System.out.printf( "Сумма покупки: "+ "%.1f",TotalSum);
+         System.out.println();
+         System.out.println();
+
+         System.out.println("Задача 5b");
+         int ChampagnePrice = 2870;
+         int ChampagneCount = 7;
+         int DiscountChampagne = 50;
+         int BreadPrice = 27;
+         int BreadCount = 1;
+         double TotalSum_b = ((ChampagneCount*ChampagnePrice)*(DiscountChampagne/100f)) + (BreadCount* BreadPrice);
+        System.out.printf( "Сумма покупки: "+ "%.1f",TotalSum_b);
         System.out.println();
-        System.out.println("Задача 5b");
+        System.out.println();
+
     }
     public static void task6 () {
         System.out.println("Задача 6");
