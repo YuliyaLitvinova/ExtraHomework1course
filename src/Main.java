@@ -87,10 +87,8 @@ public class Main {
         double PorciniPrice = 578.0;
         double PorciniWeight = 3.75;
         double PorciniDiscount = 5.0;
-
         double PorciniSumDiscount = ( (PorciniPrice * PorciniWeight) /100) * (100 - PorciniDiscount);
         double TotalSum_v = PorciniSumDiscount + (ChampignonsPrice*ChampignonsWeight);
-
         System.out.println("Сумма покупки: "+ TotalSum_v);
         System.out.println();
 
