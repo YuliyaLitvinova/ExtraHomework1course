@@ -58,8 +58,18 @@ public class Main {
         System.out.println();
     }
     public static void task5 () {
-        System.out.println("Задача 5");
-         // Пишем код для задачи 2
+        System.out.println("Задача 5a");
+         int OrangePrice = 73;
+         int OrangeWeight = 10;
+         int OrangeDiscount = 15;
+         int BananaPrice = 95;
+         int BananaWeight = 2;
+
+         double OrangeSum = (OrangePrice * OrangeWeight) * (OrangeDiscount/100f);
+         double TotalSum = (BananaWeight* BananaPrice) + OrangeSum;
+         System.out.printf( "Сумма покупки: "+ "%.1f",TotalSum);
+        System.out.println();
+        System.out.println("Задача 5b");
     }
     public static void task6 () {
         System.out.println("Задача 6");
